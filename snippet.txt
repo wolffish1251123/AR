@@ -1,0 +1,14 @@
+<model-viewer src="haikyuu.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
+    <button class="Hotspot" slot="hotspot-1" data-position="0.15894653253045665m 0.14567990170283807m 0.0463528548595224m" data-normal="0.3160054118238953m 0.21217735853266198m 0.9247277157218294m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">hinata</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
